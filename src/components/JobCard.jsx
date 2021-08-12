@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import React from "react";
 
-const JobCard = ({eachJob}) => {
+const JobCard = ({eachJob }) => {
     return ( 
         <Container>
             <h3>{eachJob.title}</h3>
